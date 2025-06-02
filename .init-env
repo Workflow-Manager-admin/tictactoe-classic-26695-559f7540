@@ -1,0 +1,12 @@
+ANDROID_HOME=/opt/android
+JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+PATH=$PATH:/opt/android/cmdline-tools/latest/bin:/opt/android/platform-tools
+
+# Installed versions and components:
+# - OpenJDK 17 (system package)
+# - Gradle (system package)
+# - Android SDK (cmdline-tools, build-tools 36.0.0-rc5, platform-tools, platforms;android-36, emulator)
+# - No express (Node.js/JS backend not needed for this native Android frontend, but pinned to version 4.21.2 if used for tooling)
+
+# Verified/required dependency:
+# express@4.21.2
